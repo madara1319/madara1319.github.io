@@ -7,40 +7,64 @@
     line-height: 48px;
     text-align: center;
   }
-  &__description{
-    padding:0;
-    margin:0;
+  &__description {
+    padding: 0;
+    margin: 0;
     font-weight: 300;
-font-size: 16px;
-line-height: 32px;
-text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
   }
 }
 
-.project{
-    background: $console;
-    box-shadow:0px 4px 16px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
-    overflow: hidden;
-    &__window{
-        height:40px;
-        background:$consoledark;
-        display: flex;
-        align-items:center;
-        padding:0 0 0 16px;
-
+.project {
+  background: $console;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  overflow: hidden;
+  font-family: roboto mono;
+  font-size: 13px;
+  line-height: 24px;
+  color: $consolegraylighter;
+  &__window {
+    height: 40px;
+    background: $consoledark;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 16px;
+  }
+  &__content {
+    padding: 24px 16px;
+    &--git {
+      color: #fff;
     }
-    &__content{
-        padding:24px 16px;
-        color:#FFFFFF;
-    }
-    &__circle{
-        display:block;
-        background: $consolegray;
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        margin-right: 8px;
-
-    }
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: 102px 1fr;
+    column-gap: 8px;
+  }
+  &__label {
+    display: block;
+    text-align: right;
+    color:$consolegraylight;
+    font-style: normal;
+  }
+  &__title {
+    font-style: bold;
+    font-size: 13px;
+    line-height: 24px;
+    color:#fff;
+  }
+  &__link{
+    color:$consolelink;
+  }
+  &__circle {
+    display: block;
+    background: $consolegray;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
 }
