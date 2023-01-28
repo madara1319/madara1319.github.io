@@ -36,7 +36,12 @@
   &__content {
     padding: 24px 16px;
     &--git {
-      color: #fff;
+      color: rgb(214, 214, 214);
+      filter: invert(0%) sepia(100%) saturate(100%) hue-rotate(90deg)
+        brightness(180%) contrast(100%);
+
+
+
     }
   }
   &__grid {
@@ -47,17 +52,17 @@
   &__label {
     display: block;
     text-align: right;
-    color:$consolegraylight;
+    color: $consolegraylight;
     font-style: normal;
   }
   &__title {
     font-style: bold;
     font-size: 13px;
     line-height: 24px;
-    color:#fff;
+    color: #fff;
   }
-  &__link{
-    color:$consolelink;
+  &__link {
+    color: $consolelink;
   }
   &__circle {
     display: block;
@@ -67,4 +72,14 @@
     border-radius: 50%;
     margin-right: 8px;
   }
+}
+
+.projects-grid {
+  display:grid;
+  column-gap:24px;
+  row-gap:24px;
+  @media(min-width:$tablet)
+  {
+    grid-template-columns: 1fr 1fr;
+  };
 }
