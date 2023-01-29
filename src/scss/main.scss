@@ -6,8 +6,10 @@
 @import "modules/projects.scss";
 @import "modules/contact.scss";
 @import "modules/socials.scss";
+@import "modules/hand.scss";
 html{
   box-sizing: border-box;
+ scroll-behavior: smooth;
 }
 *,
 *:before,
