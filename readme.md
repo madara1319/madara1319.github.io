@@ -1,12 +1,14 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://madara1319.github.io/og-madara1319.png)
 
-# WTF Webpack Starter Kit 
+# MADARA1319 - ASPIRING FRONTEND DEV
 
-Simple toolkit for your static websites development.
+My simple portfolio website created as a project from "WTF Co ten Frontend" Course
 
-## How to use it?
+## USED TOOLS
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+-WTF Webpack starter kit
+-HTML + CSS + JS
+-GitHub API
 
 ## Available scripts
 
