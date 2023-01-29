@@ -1,11 +1,16 @@
 .projects {
   padding: 64px 16px 88px;
+  @media(min-width:$desktop)
+  {
+    padding:64px 16px 176px;
+  }
   &__header {
     color: $textdark;
     font-weight: 700;
     font-size: 36px;
     line-height: 48px;
     text-align: center;
+    margin:0 0 40px;
     @media (min-width: $desktop) {
       font-size: 48px;
       line-height: 56px;
@@ -56,7 +61,7 @@
         brightness(180%) contrast(100%);
     }
     @media (min-width: $desktop) {
-      padding: 24px 48px 82px;
+      padding: 18px 48px 58px;
     }
   }
   &__grid {
