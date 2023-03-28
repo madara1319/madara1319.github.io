@@ -61,7 +61,11 @@ fetch("https://api.github.com/users/madara1319/repos")
         </p>
       </div>
     </article>`;
-      if ((homepage != null) & (description != "My personal website")) {
+      if (
+        (homepage != null) &
+        (description != "My personal website") &
+        (description != "Garbage website created for learning purposes")
+      ) {
         container.innerHTML += template;
       }
     }
